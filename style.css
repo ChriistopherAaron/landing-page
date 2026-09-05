@@ -33,3 +33,37 @@ a{
     color: #e5e7eb;
     text-decoration: none;
 }
+
+/* 1. Main Hero Container */
+.hero {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    margin-top: 48px;
+}
+
+/* 2. Equal Width Columns */
+.hero-text,
+.hero-image-placeholder {
+    flex: 1;
+}
+
+/* 2. Image placeholder Styling */
+.hero-image-placeholder {
+    background-color: #6d7280;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+}
+
+.btn {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
